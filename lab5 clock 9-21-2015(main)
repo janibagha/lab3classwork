@@ -1,0 +1,18 @@
+package clock;
+
+public class main {
+
+	public static void main(String[] args) {
+		int count;
+		clock obj1= new clock();
+		obj1.tick();
+		obj1.showtime();
+		for(count=0;count<=100;count++){
+			obj1.tick();
+			obj1.showtime();
+		}	
+		
+		
+	}
+
+}
